@@ -10,10 +10,16 @@ body {
   font-weight: 400;
 }
 
-.container {
+.nav-container {
   max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 0 auto;
 }
 
@@ -88,10 +94,13 @@ body {
   opacity: .8;
 }
 
+.info {
+  padding-top: 58px;
+}
+
 .info-info {
   display: flex;
   justify-content: space-between;
-  padding: 58px 40px 0 40px;
 }
 
 .info-title {
@@ -127,7 +136,7 @@ body {
   border: 1px solid #4262FF;
   border-radius: 32px;
   color: #FFFFFF;
-  transition: all .03s;
+  transition: all .3s;
   cursor: pointer;
 }
 
@@ -162,10 +171,12 @@ body {
   margin-top: 4px;
   max-height: 461px;
 }
+.collaboration{
+  padding-top: 128px;
+}
 
 .collaboration-block {
   display: flex;
-  padding: 128px 40px 0 40px;
   justify-content: space-between;
 }
 
@@ -196,11 +207,12 @@ body {
 .link:hover {
   color: #050038;
 }
-
+.extraTabs{
+  padding-top: 120px;
+}
 
 .extraTabs-block {
   display: flex;
-  padding: 120px 63px 0 40px;
   justify-content: space-between;
 }
 
@@ -220,10 +232,8 @@ body {
   line-height: 24px;
   color: rgba(5, 0, 56, 0.6);
 }
-
-
-.workingStyle-block {
-  padding: 148px 70px 0 70px;
+.workingStyle{
+  padding-top: 148px;
 }
 
 .workingStyle-title {
@@ -240,7 +250,7 @@ body {
 }
 
 .workingStyle-buttons button {
-  padding: 0 18px 0 18px;
+  padding: 0 18px;
   border: 1px solid #F2F2F2;
   border-radius: 24px;
   box-sizing: border-box;
@@ -258,18 +268,16 @@ body {
 }
 
 .workingStyle-title-text {
-  margin: 30px 0 0 16px;
+  margin-top: 30px;
   font-size: 18px;
   color: #050038;
 }
 
 .workingStyle-text {
-  margin: 25px 0 32px 16px;
+  margin: 25px 0 32px 0;
   max-width: 288px;
   font-size: 18px;
   line-height: 24px;
-
-  color: #050038;
 }
 
 .workingStyle-block-txt {
@@ -278,14 +286,15 @@ body {
 }
 
 .workingStyle a {
-  margin-left: 16px;
   text-decoration: none;
 }
 
-.frust-block {
+.frust{
   background: #FFD02F;
-  padding-top: 118px;
   margin-top: 71px;
+}
+.frust-block {
+  padding-top: 118px;
 }
 
 .frust-top {
@@ -314,7 +323,7 @@ body {
 }
 
 .frust-item {
-  padding: 40px 40px 77px 40px;
+  padding: 40px 0 77px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -333,9 +342,8 @@ body {
   color: #050038;
   margin: 25px auto 0;
 }
-
-.customers-block {
-  margin: 118px 75px 0 76px;
+.customers{
+  padding-top: 118px;
 }
 
 .customers-block-title {
@@ -407,9 +415,11 @@ body {
 .customers-user-txt_1 {
   margin-top: 2px;
 }
+.registrations{
+  padding-top: 155px;
+}
 
 .registrations-block {
-  margin-top: 155px;
   padding: 119px 230px;
   background: #050038;
   border-radius: 16px;
@@ -466,11 +476,14 @@ body {
 .registrations-button:hover {
   opacity: .6;
 }
+.footer{
+  margin-top: 120px;
+  background: #050038;
+}
+
 
 .footer-block {
-  margin-top: 120px;
   padding: 40px 0 40px 20px;
-  background: #050038;
 }
 
 .footer-info {
@@ -488,14 +501,16 @@ body {
 
 .footer-item {
   margin-bottom: 24px;
-  
+
 }
-.footer-item a{
+
+.footer-item a {
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
 }
-.footer-info a:hover{
+
+.footer-info a:hover {
   color: #4262FF;
 }
 
@@ -513,7 +528,8 @@ body {
   width: 1160px;
   height: 1px;
 }
-.footer-footer{
+
+.footer-footer {
   margin-right: 69px;
   display: flex;
   justify-content: space-between;
@@ -523,7 +539,8 @@ body {
   display: flex;
   gap: 20px;
 }
-.footer-copyright img{
+
+.footer-copyright img {
   height: 24px;
   object-fit: cover;
 }
@@ -543,7 +560,8 @@ body {
   color: #FFFFFF;
   transition: all .3s;
 }
-.footer-footer a:hover{
+
+.footer-footer a:hover {
   color: #4262FF;
 }
 
